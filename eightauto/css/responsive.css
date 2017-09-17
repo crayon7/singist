@@ -1,0 +1,253 @@
+@media screen and (max-width: 1200px){
+	/* -- slideshow --*/
+	.carousel-inner .item img{
+		height:300px;	
+	}
+	/* ================*/
+	/* -- header -- */
+	.navbar-default .navbar-nav > li{
+		padding:0 30px;
+	}
+	/* ================*/
+	/* -- home -- */
+	.image-field{
+		height:200px;
+	}
+	/* ==================*/
+	/* -- each brand --*/
+	.each-brand .image-field{
+		height:200px;
+	}
+	/* ==================*/
+}
+@media screen and (max-width: 1024px) {
+	/* -- header -- */
+	.navbar-default .navbar-nav>li{
+		padding:0 15px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		font-size:14px;
+		padding:10px 15px;
+	}
+	.navbar{
+		min-height:40px;
+	}
+	/* ============= */
+	/* -- slideshow --*/
+	.carousel-inner .item img{
+		height:auto;	
+	}
+	/* ================*/
+	/* -- content --*/
+	/* -- home --*/
+	.image-field{
+		width:90%;
+		height:170px;
+	}
+	.brand ul li a{
+		font-size:14px;
+	}
+	.brand{
+		margin-bottom:20px;
+	}
+	.model-list .title-field a{
+		font-size:15px;
+	}
+	.engine-power-field, .price-field{
+		font-size:13px;
+	}
+	/* --end home-- */
+	/* -- order form --*/
+	.order-form input[type=submit].btn-block{
+		margin-right:10px;
+		padding:8px 20px;
+	}
+	.order-form .back{
+		padding:4px 20px;
+	}
+	/* ================*/
+	/* -- each brand --*/
+	.each-brand .image-field{
+		height:170px;
+	}
+	/* ==================*/
+	/* -- about us -- */
+	.about-page h2{
+		font-size:22px;
+	}
+	.founder-image, .founder-text{
+		float:none;
+		width:auto;
+	}
+	.founder .col-sm-6{
+		text-align:center;
+	}
+	.founder-text ul li{
+		list-style:none;
+		margin-left:0;
+	}
+	.founder-text ul{
+		padding:0;
+	}
+	/* ===============*/
+	/* -- service -- */
+	.contact-car{
+		overflow:hidden;
+	}
+	/* ==============*/
+}
+@media screen and (max-width: 768px){
+	/* -- header -- */
+	.navbar-toggle{
+		padding:5px 6px;
+		margin-top:4px;
+		margin-bottom:4px;
+	}
+	.navbar{
+		min-height:auto;
+	}
+	.header{
+		height:auto;
+	}
+	.logo{
+		float:left;
+	}
+	/* =============*/
+	/* -- slideshow --*/
+	.carousel-inner .item img{
+		height:220px;	
+	}
+	/* ================*/
+	/* -- home -- */
+	.image-field{
+		width:90%;
+		height:auto;
+		padding-bottom:15px;
+		margin-bottom:20px;
+	}
+	.model-list li{
+		margin-bottom:20px;
+	}
+	.brand ul li{
+		width:22%;
+	}
+	/* =============*/
+	/*-- about us -- */
+	.about-page h2{
+		font-size:18px;
+		line-height:1.5;
+	}
+	.founder .row{
+		margin-bottom:0px;
+	}
+	.founder .col-sm-6{
+		margin-bottom:40px;
+	}
+	.about-eight p{
+		text-align:justify;
+		font-size:13px;
+	}
+	/* ============*/
+	/* -- each brand --*/
+	.each-brand .image-field{
+		height:auto;
+		width:90%;
+		padding-bottom:15px;
+		margin-bottom:20px;
+	}
+	/* ============*/
+	/* -- contact --*/
+	.contact-car img{
+		width:100%;
+		margin:0;
+		float:none;
+	}
+	.contact-car{
+		margin:50px 0;
+	}
+	/* ===============*/
+	/* -- footer */
+	.footer-top{
+		padding:30px 0;
+	}
+	.footer-top h2{
+		margin:0px 0px 20px;
+	}
+	.footer-top h2 a{
+		font-size:20px;
+	}
+	#footer p{
+		font-size:13px;
+	}
+	.back-to-top{
+		right:20px;
+	}
+	/*===========*/
+}
+@media screen and (max-width: 480px){
+	/* -- header -- */
+	.navbar-toggle{
+		padding:3px 5px;
+		margin-top:4px;
+		margin-bottom:4px;
+	}
+	.navbar-toggle .icon-bar+.icon-bar{
+		margin-top:2px;
+	}
+	.navbar-toggle .icon-bar{
+		width:12px;
+		height:1px;
+	}
+	.logo{
+		float:none;
+	}
+	.user-info{
+		margin-top:0;
+		margin-bottom:20px;
+	}
+	/* =============*/
+	/* -- slideshow --*/
+	.carousel-inner .item img{
+		height:120px;	
+	}
+	/* ================*/
+	/* -- home -- */
+	.brand ul li{
+		width:30%;
+	}
+	/* =============*/
+	/* -- view cart -- */
+	.voucher th, .voucher td{
+		padding:0 8px;
+		font-size:12px;
+	}
+	.order-form input[type=submit].btn-block{
+		float:none;
+		margin:0 auto 20px;
+	}
+	.order-form .back{
+		float:none;
+	}
+	.order-form .form-action{
+		text-align:center;
+	}
+	/* =============== */
+	/* -- footer */
+	#footer p{
+		font-size:11px;
+	}
+	/*===========*/
+}
+@media screen and (max-width: 320px){
+	/* -- home -- */
+	.brand ul li{
+		width:29%;
+	}
+	/* =============*/
+	/* -- view cart -- */
+	.voucher th, .voucher td{
+		padding:0 5px;
+		font-size:10px;
+	}
+	/* =============== */
+}

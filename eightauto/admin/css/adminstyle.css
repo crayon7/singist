@@ -1,0 +1,411 @@
+@font-face{
+	font-family:poppins;
+	src:url("../fonts/Poppins-Regular.ttf");
+}
+body{
+		color: #333;
+		font-family:poppins,"Segoe Ui",sans-serif,arial;
+		font-size: 14px;
+		line-height:2;
+}
+.container{
+	letter-spacing:normal;
+}
+.container-fluid{
+	width:100%;
+}
+.logo{
+	margin:20px 0 30px;
+}
+.logo img{
+	max-width:200px;
+	height:auto;
+}
+.admin-name{
+	color:#337ab7;
+	font-weight:600;
+	margin-top:50px;
+	text-align:right;
+}
+
+.nav{
+	padding-right: 0px;
+	padding-left: 0px;
+	display:table;
+	margin:0 auto;
+	float:none;
+}
+.navbar-brand{
+	color:#fff !important;
+}
+.nav .navbar-default{
+	background-color:#03003b;
+	margin-bottom:0;
+}
+.navbar-nav>li{
+	margin:0 12px;
+}
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+	font-size:16px;
+}
+.navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:hover {
+  color: #ff0000;
+}
+.list{
+	color:#fff;
+}
+.list:hover{
+	color:red;
+}
+.form-control{
+	border:1px solid #03003b;
+	border-radius: 50px;
+	height:40px;
+}
+.btn-block{
+	width: 130px;
+	height: 35px;
+	color:#03003b;
+	border-radius: 25px;
+	border:1px solid #03003b;
+	line-height:1.5;
+	background-color:transparent;
+	transition:all 0.5s ease 0s;
+}
+.btn-block:hover{
+	background:none;
+	box-shadow:0px 1px 3px 2px rgba(0,0,255,0.5);
+	border:none;
+	color:#03003b;
+	font-weight:bold;
+}
+.btn-primary.focus, .btn-primary:focus{
+	background:none;
+	color:#03003b;
+}
+.btn-block1{
+	background-color: #fff;
+	border-radius: 50px;
+	border:2px solid red;
+	padding:10px 50px;
+}
+.test{
+	margin-top: 30px;
+}
+/* -- footer -- */
+#footer{
+	margin-top:50px;
+	clear:both;
+}
+.footer-text{	
+	margin:0;
+	padding:30px 0;
+	color:#fff;
+	text-align: center;
+}
+.footer-bottom{
+	background-color: #1a1a1a;
+}
+.footer-top{
+	background:#3f3f3f;
+	color:#fff;
+	padding:50px 0;
+}
+.footer-top h2{
+	text-align:center;
+}
+.footer-top h2 a{
+	color:#fff;
+}
+.footer-top h2 a:hover{
+	color:#03003b;
+}
+/* ============ */
+.menu div ul li{
+	border: 2px solid red;
+}
+
+/* -- brand list-- */
+.brand-logo img{
+	width:150px;
+	height:auto;
+}
+.brand-list li{
+	list-style:none;
+}
+.panel-body{
+	display:table;
+	margin:0 auto;
+	height:200px;
+}
+.img-middle{
+	display:table-cell;
+	vertical-align:middle;
+}
+.panel{
+	margin-bottom:50px;
+}
+.brand-list .pfoot a{
+	margin:0 10px;
+}
+
+/* -- end brand list-- */
+/* -- brand edit -- */
+input[type=submit].btn-block{
+	width: 130px;
+	height: 40px;
+	background-color:#03003b;
+	color:#fff;
+	border-radius: 50px;
+	float:left;
+}
+.back{
+	margin:0 0 0 50px;
+	text-align:center;
+	padding:7px 50px;
+	background-color:#03003b;
+	color:#fff;
+	border-radius: 50px;
+	float:left;
+}
+.back:hover{
+	font-weight:bold;
+	box-shadow:0px 1px 3px 2px rgba(0,0,255,0.5);
+	text-decoration:none;
+	color:#fff;
+}
+.brand-logo{
+	margin:50px 0;
+}
+/* -- end brand edit -- */
+/* -- model list -- */
+.new-model{
+	width:100%;
+	float:left;
+}
+.new-model .btn-block{
+	float:right;
+}
+.model-list li{
+	list-style:none;
+}
+.list-detail{
+	padding:25px 0;
+	border-bottom:3px solid #dcdcde;
+}
+.list-detail p{
+	text-align:justify;
+	margin-top:20px;
+}
+.model-list img{
+	width:100%;
+	height:auto;
+}
+ul.model-list{
+	float:left;
+	width:100%;
+	margin:0 0 30px;
+	padding:0;
+}
+.model-label{
+	float:left;
+	margin-right:50px;
+}
+.btnedit{
+	float:left;
+	margin:0 30px 0 20px;
+}
+.model-list .btndelete{
+	float:left;
+	margin:0;
+}
+
+.page-title{
+	background:#dcdcde;
+	margin:30px auto;
+}
+.page-title .breadcrumb{
+	background:none;
+	margin:0 10px;
+}
+.list-detail .link{
+	margin-top:30px;
+}
+.list-detail h2{
+	margin:0 0 20px;
+}
+/* -- end model list -- */
+/* -- model edit -- */
+#model-edit img{
+	width:100%;
+	height:auto;
+}
+#model-edit textarea.form-control{
+	height:120px;
+	padding:10px 20px;
+	text-align:justify;
+}
+/* -- end model edit -- */
+/* -- orders -- */
+.orders li{
+	float:left;
+	width:100%;
+	list-style:none;
+	margin-bottom:50px;
+	padding-bottom:30px;
+	border-bottom:2px solid #aaa;
+}
+.orders li:last-child{
+	border:none;
+}
+.orders{
+	padding:0;
+}
+.orders li h2{
+	font-size:20px;
+	margin-top:0;
+}
+.orders li .deliver{
+    padding:2px 15px;
+    color: #03003b;
+    border-radius: 25px;
+    border: 1px solid #03003b;
+    line-height: 1.5;
+    background-color: transparent;
+		text-decoration:none;
+}
+.orders li .deliver:hover{
+	box-shadow:0px 1px 3px 2px rgba(0,0,255,0.5);
+	border:none;
+	color:#ff0000;
+}
+.orders li p{
+	margin-bottom:20px;
+}
+/* -- end orders -- */
+/* -- Pagination -- */
+#pager{
+	margin-top:20px;
+	clear:both;
+}
+.pagination{
+	display:inline;
+}
+#pager ul{
+	padding:0;
+	display:table;
+	margin:0 auto;
+}
+#pager li{
+	display:inline;
+	list-style:none;
+}
+#pager a, #pager span{
+	color:#03003b;
+	padding:0 10px;
+	margin:0 3px;
+	line-height:25px;
+	border:1px solid;
+	border-radius:50px;
+	float:left;
+}
+#pager a:hover{
+	text-decoration:none;
+	border-color:#ff0000;
+	font-weight:600;
+}
+/* -- End Pagination -- */
+/* -- feedback -- */
+.feedback-list{
+	float:left;
+	width:100%;
+	padding:0;
+}
+.feedback-list li{
+	float:left;
+	width:100%;
+	clear:both;
+	margin-bottom:30px;
+	list-style:none;
+}
+.reply-feedback{
+	width:100%;
+	min-height:100px;
+	padding:10px 10px;
+	font-size:13px;
+	text-align:justify;
+	overflow:hidden;
+}
+.reply-feedback.bgcolor{
+	background:#c1dffc;
+}
+.reply-btn{
+	float:right;
+	background:none;
+	border-radius:50px;
+	border:1px solid #03003b;
+	padding:3px 30px;
+}
+.reply-btn:hover{
+	font-weight:600;
+	color:#03003b;
+	box-shadow: 0px 1px 3px 2px rgba(0,0,255,0.5);
+}
+.cust-fb{
+	background:#eee;
+	padding:5px 10px;
+}
+.cust-fb p{
+	font-size:13px;
+	text-align:justify;
+}
+/* ==============*/
+
+/* -- brand for WY -- */
+.blist{
+	margin-top: 30px;
+	background-color: #d5d3d3;
+}
+
+.pimg{
+	width: 150px;
+	height: auto;
+}
+
+.pfoot{
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.pfoot a:link{
+	text-decoration: none;
+}
+
+.pfoot a:hover{
+	color: #03003b;
+	font-weight: bold;
+}
+/* ============ */
+/* -- back to top --*/
+.back-to-top {
+	margin: 0;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	width: 50px;
+	height: 50px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: #ffffff;	 
+	background:rgba(3,0,59, 0.5) url("../images/Arrows-U-icon.png") no-repeat center center;
+	border-radius:100%;
+	text-indent:9999px;
+}
+ 
+/* ================= */
+
+ label{
+ 	font-weight:normal;
+ }

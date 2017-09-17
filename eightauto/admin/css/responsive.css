@@ -1,0 +1,147 @@
+@media screen and (max-width: 1200px){
+	.back{
+		margin-left:20px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	/* -- header -- */
+	.navbar-default .navbar-nav>li>a{
+		font-size:14px;
+		padding-left:0;
+		padding-right:0;
+	}
+	.navbar-nav>li{
+		margin:0 16px;
+	}
+	.navbar-collapse{
+		padding:0;
+	}
+	/* ============= */
+	/* -- content --*/
+	/* -- home --*/
+	input[type=submit].btn-block{
+		float:none;
+		margin:0 auto 20px;
+	}
+	.back{
+		float:none;
+		margin:0;
+		padding:8px 50px;
+	}
+	.form-action{
+		text-align:center;
+	}
+	/* --end home-- */
+
+	/* -- new admin --*/
+	.register-title h2{
+		font-size:22px;
+	}
+	/* ===============*/
+}
+@media screen and (max-width: 768px){
+	/* -- header -- */
+	.navbar-toggle{
+		padding:5px 6px;
+		margin-top:4px;
+		margin-bottom:4px;
+	}
+	.navbar{
+		min-height:auto;
+	}
+	.logo{
+		float:left;
+	}
+	/* =============*/
+
+	/* -- model list -- */
+	.list-detail h2{
+		margin:30px 0 20px;
+		font-size:22px;
+	}
+	.list-detail .link{
+		margin-top:20px;
+	}
+	.list-detail{
+		padding:35px 0;
+	}
+	/* =============*/
+
+	/* -- footer */
+	.footer-top{
+		padding:30px 0;
+	}
+	.footer-top h2{
+		margin:0px 0px 20px;
+	}
+	.footer-top h2 a{
+		font-size:20px;
+	}
+	#footer p{
+		font-size:13px;
+	}
+	.back-to-top{
+		right:20px;
+	}
+	/*===========*/
+/* -- back to top --*/
+	.back-to-top {
+		right: 20px;
+	}
+	/*===========*/
+}
+@media screen and (max-width: 480px){
+	label{
+		font-size:13px;
+	}
+	/* -- header -- */
+	.logo{
+		float:none;
+	}
+	.admin-name{
+		margin-bottom:20px;
+		margin-top:0;
+	}
+	/* =============*/
+	/* -- model list -- */
+	.list-detail h2{
+		font-size:18px;
+	}
+	.model-label{
+		padding:0;
+		margin-right:30px;
+	}
+	.list-detail .btnedit{
+		margin:0 15px;
+		width:90px;
+		height:30px;
+		font-size:13px;
+	}
+	.model-list .btndelete{
+		width:90px;
+		height:30px;
+		font-size:13px;
+	}
+	.new-model{
+		margin-bottom:30px;
+	}
+	#pager a, #pager span{
+		margin:5px 3px;
+	}
+	/* =============*/
+	/* -- new admin --*/
+	.register-title h2{
+		font-size:18px;
+	}
+	/* ===============*/
+	/* -- footer */
+	#footer p{
+		font-size:11px;
+	}
+	/*===========*/
+}
+@media screen and (max-width: 320px){
+	/* -- home -- */
+
+	/* =============*/
+}
